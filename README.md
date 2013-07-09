@@ -1,7 +1,7 @@
 # Ost.io apps
 [Ost.io](http://ost.io) ("open-source talks") is a forum for open-source projects and the best place for discussing project stuff with other users. It is tightly integrated with GitHub.
 
-Ost.io apps is a TodoMVC-like set of example applications, which hopes to offer a more complex apps.
+Ost.io apps is a [TodoMVC](http://todomvc.com)-like set of example applications, which hopes to offer a more complex apps.
 
 We think example app should be:
 
@@ -9,6 +9,20 @@ We think example app should be:
    used by popular open-source projects.
 2. Complex. TodoMVC is simple, but does not show advanced framework features.
 3. Useful besides its main purpose.
+
+# Examples
+
+For initial launch, we need at least three apps.
+
+You may pick any stack you want. Just stick to the
+look-and-feel specification.
+Though we **suggest** to use [Bower](http://bower.io)
+for dependency management
+and [Mocha](http://visionmedia.github.io/mocha/) for tests.
+
+Any transpiled languages (coffee, typescript, elm) are very welcome.
+
+For list of current implementations, see **apps/** directory.
 
 # Specification
 

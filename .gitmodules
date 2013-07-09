@@ -1,0 +1,3 @@
+[submodule "apps/chaplin-brunch"]
+	path = apps/chaplin-brunch
+	url = git@github.com:paulmillr/ostio.git

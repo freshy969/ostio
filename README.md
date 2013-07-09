@@ -1,7 +1,7 @@
 # Ost.io apps
 [Ost.io](http://ost.io) ("open-source talks") is a forum for open-source projects and the best place for discussing project stuff with other users. It is tightly integrated with GitHub.
 
-Ost.io apps is a [TodoMVC](http://todomvc.com)-like set of example applications, which hopes to offer a more complex apps.
+Ost.io apps is a [TodoMVC](http://todomvc.com)-like set of example applications, which hopes to offer more complex apps.
 
 We think example app should be:
 
@@ -9,6 +9,20 @@ We think example app should be:
    used by popular open-source projects.
 2. Complex. TodoMVC is simple, but does not show advanced framework features.
 3. Useful besides its main purpose.
+
+Features we initially feel it should capture:
+
+* Multi-view
+* Multi-level hierarchies, modals
+* Captures CRUD
+* Authentication, session management
+* Register, login, logout
+* Demonstrates github login
+* Uses a dedicated backend for data
+* State management / routing
+* Precompiled templates
+* Sub-views
+* Mobile support
 
 # Examples
 
@@ -37,20 +51,6 @@ to `apps` directory.
 
 For example, if you’re making angular app built with Grunt,
 send us `angular-grunt` submodule.
-
-Features we initially feel it should capture:
-
-* Multi-view
-* Multi-level hierarchies, modals
-* Captures CRUD
-* Authentication, session management
-* Register, login, logout
-* Demonstrates github login
-* Uses a dedicated backend for data
-* State management / routing
-* Precompiled templates
-* Sub-views
-* Mobile support
 
 # General
 

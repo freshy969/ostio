@@ -63,7 +63,7 @@ See [http://ost.io](http://ost.io) for general example of how app should behave.
 
 * **Structure:** Files in `app` dir, libs in `vendor` dir unless other is specified by your framework.
 
-* **Routing: **Required, with pushState. Routes:
+* **Routing:** Required, with pushState. Routes:
 
     * `/` — **home** page. Contains description text.
     * `/auth-callback` — endpoint for OAuth redirection.

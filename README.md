@@ -23,6 +23,7 @@ Features we initially feel it should capture:
 * Precompiled templates
 * Sub-views
 * Mobile support
+* Animations
 
 # Examples
 
@@ -58,27 +59,19 @@ See [http://ost.io](http://ost.io) for general example of how app should behave.
 
 * **UX:** Must look exactly the same. Try to reuse existing styles. Box-sizing: border-box must be used for simplicity of calculations.
 
-* **Compatibility: **IE9+, modern Firefox, Chrome, Safari (including mobile)
+* **Compatibility:** IE9+, modern Firefox, Chrome, Safari (including mobile)
 
 * **Structure:** Files in `app` dir, libs in `vendor` dir unless other is specified by your framework.
 
 * **Routing: **Required, with pushState. Routes:
 
-    * / — **home** page. Contains description text.
-
-    * /auth-callback — endpoint for OAuth redirection.
-
-    * /logout — destroys current session if user is logged-in, otherwise redirect to /.
-
-    * /feed — **feed**, contains last users and posts.
-
-    * /settings — user **settings.**
-
-    * /@:login — **user** page. Contains user info, repos and organisations.
-
-    * /@:login/:repo — **repository** page. Contains current repo topics with their stats.
-
-    * /@:login/:repo/topics/:topic — **topic** page. Contains topic posts.
+    * `/` — **home** page. Contains description text.
+    * `/auth-callback` — endpoint for OAuth redirection.
+    * `/feed` — **feed**, contains last users and posts.
+    * `/settings` — user **settings.**
+    * `/@:login` — **user** page. Contains user info, repos and organisations.
+    * `/@:login/:repo` — **repository** page. Contains current repo topics with their stats.
+    * `/@:login/:repo/topics/:topic` — **topic** page. Contains topic posts.
 
 # Common
 
@@ -94,7 +87,9 @@ Located on top of application. Contains link to **home**, **feed**.
 
 If logged-in, also contains links to current **user** with his name, **settings** and **logout**.
 
-Otherwise, contains login button.  Must have its own persistent view.
+When clicked on **logout**, the app should destroy the session. If user was on **settings** page, he must be redirected to `/`. On any other page user must not be redirected.
+
+Otherwise, contains login button. Must have its own persistent view.
 
 ## Breadcrumbs
 

@@ -11,6 +11,13 @@ We think example app should be:
 2. Complex. TodoMVC is simple, but does not show advanced framework features.
 3. Useful besides its main purpose.
 
+There are currently two main examples of ostio apps:
+
+- [Backbone + Chaplin](https://github.com/paulmillr/ostio-chaplin) implementation. This is the first and initial app, made in 2012.
+- [React + Exim](https://github.com/paulmillr/ostio-exim) implementation from 2016. Very useful if you'd love to know how to make real-world apps with React.
+
+## Features
+
 Features we initially feel it should capture:
 
 * Multi-view

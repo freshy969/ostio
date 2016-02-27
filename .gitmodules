@@ -1,3 +1,6 @@
-[submodule "apps/chaplin-brunch"]
-	path = apps/chaplin-brunch
-	url = git@github.com:paulmillr/ostio.git
+[submodule "backbone-chaplin"]
+	path = backbone-chaplin
+	url = git@github.com:paulmillr/ostio-chaplin.git
+[submodule "react-exim"]
+	path = react-exim
+	url = git@github.com:paulmillr/ostio-exim.git

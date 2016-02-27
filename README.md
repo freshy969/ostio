@@ -1,7 +1,8 @@
-# Ost.io apps
-[Ost.io](http://ost.io) ("open-source talks") is a forum for open-source projects and the best place for discussing project stuff with other users. It is tightly integrated with GitHub.
+# Ost.io
 
-Ost.io apps is a [TodoMVC](http://todomvc.com)-like set of example applications, which hopes to offer more complex apps.
+[Ost.io](http://ost.io) ("open-source talks") is a forum for open-source projects and the best place for discussing project stuff with other users. It is tightly integrated with GitHub. The main ostio mission is to replace mailing lists.
+
+Ost.io apps are [TodoMVC](http://todomvc.com)-like set of example applications, which hopes to offer more complex apps.
 
 We think example app should be:
 

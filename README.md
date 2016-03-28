@@ -13,8 +13,8 @@ We think example app should be:
 
 There are currently two main examples of ostio apps:
 
-- [Backbone + Chaplin](https://github.com/paulmillr/ostio-chaplin) implementation. This is the first and initial app, made in 2012.
-- [React + Exim](https://github.com/paulmillr/ostio-exim) implementation from 2016. Very useful if you'd love to know how to make real-world apps with React.
+- [**React + Exim**](https://github.com/paulmillr/ostio-exim) implementation from 2016. Very useful if you'd love to know how to make real-world apps with React.
+- [**Backbone + Chaplin**](https://github.com/paulmillr/ostio-chaplin) implementation. This is the first and initial app, made in 2012.
 
 ## Features
 

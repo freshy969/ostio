@@ -41,7 +41,7 @@ You may pick any stack you want. Just stick to the
 look-and-feel specification.
 Though we **suggest** to use [Bower](http://bower.io)
 for dependency management
-and [Mocha](http://visionmedia.github.io/mocha/) for tests.
+and [Mocha](http://mochajs.org/) for tests.
 
 Any transpiled languages (coffee, typescript, elm) are very welcome.
 
